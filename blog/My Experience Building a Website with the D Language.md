@@ -89,6 +89,7 @@ source/
 │   └── package.d   # Route module exports
 ├── app.d           # Application entry point
 ├── config.d        # Configuration loading
+├── ...             # Other modules
 └── db.d            # Database connection handling
 
 views/
@@ -104,7 +105,7 @@ views/
 
 This separation keeps code isolated: routing, data operations, API, frontend templates.
 
-## The Challenges
+## Challenges
 
 Building with D wasn't without friction. The ecosystem is smaller than mainstream languages, and that shows in a few ways.
 
@@ -124,7 +125,7 @@ The D package [registry](https://code.dlang.org/) has many packages available, b
 
 P.S.: There are many dead projects there. Even empty projects are added. The registry should restrict people from adding empty projects. I think this should be monitored somehow. // just a suggestion.
 
-The MongoDB situation is a good example. Searching for `mongodb` turns up multiple packages. Which one is good? Which one works? It's not obvious. After trying a few dead ends, I found that [`vibe-d:mongo`](https://code.dlang.org/packages/vibe-d%3Amongodb) (part of the Vibe-d framework itself) is the right choice. But subpackages of a package are not shown in search results—I had no idea it existed. Discovering this required digging; it's not the kind of thing you find with a quick search.
+The MongoDB situation is a good example. Searching for `mongodb` turns up multiple packages. Which one is good? Which one works? It's not obvious. After trying a few dead ends, I found that [`vibe-d:mongo`](https://code.dlang.org/packages/vibe-d%3Amongodb) (part of the Vibe-d framework itself) is the right choice. But subpackages of a package are not shown in search results - I had no idea it existed. Discovering this required digging; it's not the kind of thing you find with a quick search.
 
 ## The Good: Community
 
