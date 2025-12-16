@@ -79,7 +79,7 @@ For styling, I went with Bootstrap 5 and added a dark/light theme toggle.
 
 I organized the codebase into logical modules:
 
-```
+```bash
 source/
 ├── api/            # REST API implementation
 │   ├── ...
