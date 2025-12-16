@@ -137,7 +137,7 @@ I still like the D programming language :)
 
 ## What's Next
 
-The current site handles my portfolio, blog, and CV. I'm planning to add a photo gallery as a separate website - keeping the main site lean while letting the photo stock scale independently. I want to move from [Instagram](https://www.instagram.com/kirill.saidov) to my personal photo gallery where users will be able to download and buy photos in high quility.
+The current site handles my portfolio, blog, and CV. I'm planning to add a photo gallery as a separate website - keeping the main site lean while letting the photo stock scale independently. I want to move from [Instagram](https://www.instagram.com/kirill.saidov) to my personal photo gallery where users will be able to download and buy photos in high quality.
 
 If you're curious about D for web development, I encourage you to try it. The ecosystem isn't as polished as mainstream options, but the language itself is a pleasure to work with. And maybe, if more people build with D, the ecosystem will grow.
 
